@@ -1,0 +1,1017 @@
+<meta charset="utf-8">
+<style>
+    .containerTabla { max-width: 963px; }
+    .headerDesktop { width: 100%; height: auto; }
+    .unoHeader { width: 45.8%; float: left; border-radius: 30px 0px 0px 0px; -moz-border-radius: 30px 0px 0px 0px; -webkit-border-radius: 30px 0px 0px 0px; border: 2px solid #7d9abb; border-right: 1px solid #7d9abb; min-height: 70px; max-height: 70px; }
+    .dosHeader { width: 53.55%; float: right; border-radius: 0px 30px 0px 0px; -moz-border-radius: 0px 30px 0px 0px; -webkit-border-radius: 0px 30px 0px 0px; border: 2px solid #7d9abb; border-left: 1px solid #7d9abb; min-height: 70px; max-height: 70px; }
+    .headerMobile { display: none; border-radius: 15px 15px 0px 0px; -moz-border-radius: 15px 15px 0px 0px; -webkit-border-radius: 15px 15px 0px 0px; border: 2px solid #7d9abb; }
+    .uno { width: 45.8%; float: left; max-height: 50px; min-height: 50px; border-left: 2px solid #7d9abb; border-right: 1px solid #7d9abb; border-bottom: 2px solid #7d9abb; }
+    .dos { width: 53.55%; float: right; max-height: 50px; min-height: 50px; border-left: 1px solid #7d9abb; border-right: 2px solid #7d9abb; border-bottom: 2px solid #7d9abb; }
+    #detalleMobile { display: none; }
+    .unoHeader p { color: #c0895d; margin: 3px; text-align: center; font-size: 25px; padding-top: 10px; }
+    .dosHeader p { color: #c0895d; margin: 3px; text-align: center; font-size: 25px; }
+    .uno p { color: #7d9abb; margin: 3px; font-weight: 700; padding-left: 5px; }
+    .detalle div { width: 8.73%; float: left; max-height: 20px; min-height: 20px; text-align: center; border-top: 2px solid #7d9abb; border-left: 2px solid #7d9abb; margin-top: 11px; }
+    .detalleX div { width: 8.73%; float: left; max-height: 46px; min-height: 46px; text-align: center; border-left: 2px solid #7d9abb; padding-top: 4px; }
+    .unoList { border-left: 0 !important; background-color: #e3c083; color: #FFFFFF; }
+    .dosList { background-color: #945b64; color: #FFFFFF; }
+    .tresList { background-color: #b3c639; color: #FFFFFF; }
+    .xList { border-left: 0 !important; }
+    
+    @media screen and (max-width: 950px) {
+        .dosHeader { width: 53.5%; }
+        .dos { width: 53.5%; }
+        .detalle div, .detalleX div { width: 8.72%; }
+    }
+    @media screen and (max-width: 940px) {
+        .detalle div, .detalleX div { width: 8.71%; }
+    }
+    @media screen and (max-width: 917px) {
+        .detalle div, .detalleX div { width: 8.7%; }
+    }
+    @media screen and (max-width: 894px) {
+        .detalle div, .detalleX div { width: 8.64%; }
+    }
+    @media screen and (max-width: 882px) {
+        .dosHeader, .dos { width: 53.4%; }
+        .uno { width: 45.77%; }
+    }
+    @media screen and (max-width: 768px) {
+        .unoHeader, .dosHeader { display: none; }
+        .headerMobile { display: block; float: left; width: 99.8%; }
+        .headerMobile p { text-align: center; font-size: 20px; font-weight: 700; color: #c0895d; margin: 0; line-height: 1.5em; }
+        .uno { width: 99.8% !important; border-left: 2px solid #7d9abb; border-right: 2px solid #7d9abb; border-bottom: 2px solid #7d9abb; max-height: 52px; }
+        .dos { width: 99.8% !important; border-left: 2px solid #7d9abb; border-right: 2px solid #7d9abb; border-bottom: 2px solid #7d9abb; float: left !important; min-height: 52px; max-height: 52px;}
+        #detalleMobile { display: block; width: 99.8% !important; }
+        #detalleMobile div { margin-top: 0; border-top: 0; border-bottom: 2px solid #7d9abb; }
+        .detalle div, .detalleX div { width: 8.56%; }
+        .detalleX div { max-height: 26px; min-height: 26px; } 
+    }
+    @media screen and (max-width: 320px) {
+        .detalle div { font-size: 9px !important; padding-top: 2px !important; }
+        .detalle div, .detalleX div { width: 8.3% !important; min-height: 22px !important; }
+    }
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<div class="containerTabla">
+    <div class="unoHeader">
+        <p>Servicio y Beneficios Adicionales</p>
+    </div>
+    <div class="dosHeader">
+        <p>Detalle de coberturas</p>
+            <div class="detalle">
+                <div class="unoList">A</div>
+                <div class="dosList">B</div>
+                <div class="dosList">B1</div>
+                <div class="dosList">B2</div>
+                <div class="dosList">C</div>
+                <div class="dosList">C1</div>
+                <div class="dosList">C2</div>
+                <div class="tresList">P</div>
+                <div class="tresList">TRA</div>
+                <div class="tresList">TRP</div>
+                <div class="tresList">AGP</div>
+            </div>
+            <div style="clear: both;"></div>
+    </div>
+    <div class="headerMobile">
+        <p>Servicio y Beneficios Adicionales</p>
+        <p>Detalle de coberturas</p>
+    </div>
+    <div class="uno">
+        <p>Servicio Auxilio Mecánico y/o remolque</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Servicio de Ambulancias Terrestres y/o Aéreas (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Asesoramiento legal e información Gral. de Servicios en viaje</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Transmisión de mensajes urgentes</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Seguro Obligatorio S.S.N. Resolución Nº 21999 / 22058</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Extensión a países Limítrofes</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList">X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Eximición de franquicias en Robo y/o hurto</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Traslado por fallecimiento del Titular (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Repatriación por fallecimiento - Países Limitrofes (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Traslado de un familiar del beneficiario (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Traslado de acompañante por fallecimiento (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Desplazamiento del titular por siniestro en su domicilio (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Extravío del equipaje en vuelo regular (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Traslado de pasajeros (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Guardería del Vehículo</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Asistencia Médica por Accidente y/o enfermedad en viaje (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Reposición de Cristales laterales y/o cerraduras de puertas</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Daños por granizo</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Reposición de un parabrisa o luneta por año</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Accidentes Pers. para los ocupantes del vehículo asegurado</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Daños parciales como consecuencia del Robo Total de la unidad</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Reposición a nuevo de la unidad</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Gastos de Gestoría (en el RNPA)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Alojamiento en caso de siniestro (*)</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Reposición a nuevo de cubiertas</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Reposición de techo panorámico</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+    
+    <div class="uno">
+        <p>Cuando el daño por accidente supere la suma establecida en póliza no se aplicara la franquicia fija convenida.</p>
+    </div><!-- end uno -->
+    <div class="dos">
+        <div id="detalleMobile" class="detalle">
+            <div class="unoList">A</div>
+            <div class="dosList">B</div>
+            <div class="dosList">B1</div>
+            <div class="dosList">B2</div>
+            <div class="dosList">C</div>
+            <div class="dosList">C1</div>
+            <div class="dosList">C2</div>
+            <div class="tresList">P</div>
+            <div class="tresList">TRA</div>
+            <div class="tresList">TRP</div>
+            <div class="tresList">AGP</div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="detalleX">
+            <div class="xList"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>X</div>
+            <div>X</div>
+        </div>
+    </div><!-- end dos -->
+</div><!-- end containerTabla -->
+
+<script>
+
+
+    var divuno;
+    var divp;
+    var divdos;
+    
+    $(document).ready(function() {
+        divuno = document.getElementsByClassName("uno");
+        for (var i=0; i<divuno.length ; i++){
+            divuno[i].addEventListener("click", mostrar, false);
+            //            console.log(divuno[i]);
+        }
+        
+        divp = document.querySelectorAll(".uno p");
+        for (var i=0; i<divp.length ; i++){
+            divp[i].addEventListener("click", mostrar, false);
+            //            console.log(divuno[i]);
+        }
+        
+        if($(document).width() < 768 ){
+            $(".dos").hide();
+        }
+    });
+    
+    function mostrar(e){
+        //if (e.target == divuno[2] ) {
+        if($(document).width() < 768 ){
+            $(".dos").hide();
+            if($(e.target).hasClass("uno")) {
+                $(e.target).next().show();
+            } else if ($(e.target).has("p")){
+                $(e.target).parent().next().show();
+            }
+        }
+    }
+    
+//    $(document).ready(function(){
+//        $(".dos").hide();
+//        $(".uno").click(function(){
+//            $(this).next(".dos").fadeIn();
+//        });
+//        
+//    });
+</script>
